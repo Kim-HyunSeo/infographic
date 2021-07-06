@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class = "main2">
+    <div class ="text_fam">
+        <div class ="number">2</div>
+        <div class ="title">전국 연극 소극장 개수</div>
+        <div class ="text">연극 소극장의 분포가 고르지 않으며,<br>
+            특히 서울 안 대학로에 밀집되어있는 모습을 볼 수 있다.</div>
+    </div>
+    <div class ="img1"><img src='img3_1.png' width="500vw"></div>
+    <div class ="img2"><img src='imgplot.png' width="400vw"></div>
+    <!-- <div class ="img3"><img src='img3_2.png' width="250vw"></div> -->
+    <div class ="btn_fam">
+        <div class ="btn1 btn">서울</div>
+        <div class ="btn2 btn">경기/인천</div>
+        <div class ="btn3 btn">충청</div>
+        <div class ="btn4 btn">경상</div>
+        <div class ="btn5 btn">전라</div>
+        <div class ="btn6 btn">강원</div>
+        <div class ="btn7 btn">제주</div>
+    </div>
+    <div class ="num_fam">
+        <div class ="num1 num">591</div>
+        <div class ="num2 num">209</div>
+        <div class ="num3 num">133</div>
+        <div class ="num4 num">283</div>
+        <div class ="num5 num">123</div>
+        <div class ="num6 num">50</div>
+        <div class ="num7 num">25</div>
+    </div> 
+</div>
+<script>
+    document.querySelector('.btn1').addEventListener('click', function(){
+        document.querySelector('.num1').style.display = "block";
+        document.querySelector('.num2').style.display = "none";
+        document.querySelector('.num3').style.display = "none";
+        document.querySelector('.num4').style.display = "none";
+        document.querySelector('.num5').style.display = "none";
+        document.querySelector('.num6').style.display = "none";
+        document.querySelector('.num7').style.display = "none";
+    })
+    document.querySelector('.btn2').addEventListener('click', function(){
+        document.querySelector('.num2').style.display = "block";
+        document.querySelector('.num1').style.display = "none";
+        document.querySelector('.num3').style.display = "none";
+        document.querySelector('.num4').style.display = "none";
+        document.querySelector('.num5').style.display = "none";
+        document.querySelector('.num6').style.display = "none";
+        document.querySelector('.num7').style.display = "none";
+    })
+    document.querySelector('.btn3').addEventListener('click', function(){
+        document.querySelector('.num3').style.display = "block";
+        document.querySelector('.num2').style.display = "none";
+        document.querySelector('.num1').style.display = "none";
+        document.querySelector('.num4').style.display = "none";
+        document.querySelector('.num5').style.display = "none";
+        document.querySelector('.num6').style.display = "none";
+        document.querySelector('.num7').style.display = "none";
+    })
+    document.querySelector('.btn4').addEventListener('click', function(){
+        document.querySelector('.num4').style.display = "block";
+        document.querySelector('.num2').style.display = "none";
+        document.querySelector('.num3').style.display = "none";
+        document.querySelector('.num1').style.display = "none";
+        document.querySelector('.num5').style.display = "none";
+        document.querySelector('.num6').style.display = "none";
+        document.querySelector('.num7').style.display = "none";
+    })
+    document.querySelector('.btn5').addEventListener('click', function(){
+        document.querySelector('.num5').style.display = "block";
+        document.querySelector('.num2').style.display = "none";
+        document.querySelector('.num3').style.display = "none";
+        document.querySelector('.num4').style.display = "none";
+        document.querySelector('.num1').style.display = "none";
+        document.querySelector('.num6').style.display = "none";
+        document.querySelector('.num7').style.display = "none";
+    })
+    document.querySelector('.btn6').addEventListener('click', function(){
+        document.querySelector('.num6').style.display = "block";
+        document.querySelector('.num2').style.display = "none";
+        document.querySelector('.num3').style.display = "none";
+        document.querySelector('.num4').style.display = "none";
+        document.querySelector('.num5').style.display = "none";
+        document.querySelector('.num1').style.display = "none";
+        document.querySelector('.num7').style.display = "none";
+    })
+    document.querySelector('.btn7').addEventListener('click', function(){
+        document.querySelector('.num7').style.display = "block";
+        document.querySelector('.num2').style.display = "none";
+        document.querySelector('.num3').style.display = "none";
+        document.querySelector('.num4').style.display = "none";
+        document.querySelector('.num5').style.display = "none";
+        document.querySelector('.num6').style.display = "none";
+        document.querySelector('.num1').style.display = "none";
+    })
+
+</script>
+</body>
+</html>

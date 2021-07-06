@@ -1,0 +1,85 @@
+.btn{
+width: 5vw;
+height: 5vh;
+border: 1px solid rgb(177, 177, 177);
+border-radius: 10px;
+margin: 8px;
+text-align: center;
+line-height: 5vh;
+color: rgb(177, 177, 177);
+}
+.btn:hover{
+    border: 1px solid white;
+    background-color: #B8E0E3;
+    color: white;
+}
+.num{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.img1{
+    margin-left: 50%;
+}
+.img2{
+    margin-top: -40%;
+    margin-left: 10%;
+}
+.btn_fam{
+    margin-left: 90%;
+    margin-top: -30%;
+}
+.num1{
+    margin-top: -23%;
+    margin-left: 65%;
+    display: none;
+}
+.num2{
+    margin-top: -19%;
+    margin-left: 65%;
+    display: none;
+}
+.num3{
+    margin-top: -14%;
+    margin-left: 64%;
+    display: none;
+}
+.num4{
+    margin-top: -11%;
+    margin-left: 67%;
+    display: none;
+}
+.num5{
+    margin-top: -6%;
+    margin-left: 64%;
+    display: none;
+}
+.num6{
+    margin-top: -23%;
+    margin-left: 72%;
+    display: none;
+}
+.num7{
+    font-size: 40px;
+    margin-top: 16%;
+    margin-left: 57%;
+    display: none;
+}
+.number{
+    color: rgb(199, 199, 199);
+    font-size: 100px;
+    margin: 30px;
+}
+.title{
+    position: absolute;
+    top: 12%;
+    margin-left: 50px;
+    font-size: 35px;
+    color: rgb(109, 109, 109);
+}
+.text{
+    position: absolute;
+    top: 18%;
+    margin-left: 50px;
+    font-size: 16px;
+    color: rgb(56, 56, 56);
+}
