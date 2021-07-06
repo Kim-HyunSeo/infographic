@@ -1,4 +1,3 @@
-// import Chart from './node_modules/chart.js/dist/chart.js';
 // let myChartOne = document.getElementById('myChartOne').getContext('2d');
 // let myChartTwo = document.getElementById('myChartTwo').getContext('2d');
 
