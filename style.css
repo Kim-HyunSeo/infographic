@@ -1,0 +1,212 @@
+@import url('./reset.css');
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+.inner_container {
+    width: 1000px;
+    padding: 0 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box1 canvas {
+    margin: 20px 0 40px 0;
+}
+
+.box2 {
+    display: flex;
+    height: 800px;
+    justify-content: space-between;
+}
+
+.text_fam {
+    position: relative;
+    width: 440px;
+    margin: 0;
+    padding: 0;
+}
+
+.number {
+    height: 160px;
+    color: rgba(184, 224, 227, 0.8);
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.title {
+    position: absolute;
+    top: 64px;
+    left: 28px;
+    font-size: 36px;
+    line-height: 40px;
+    color: black;
+}
+
+.text {
+    position: absolute;
+    top: 108px;
+    left: 32px;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(56, 56, 56);
+}
+
+.img1 {
+    width: 440px;
+    margin: 40px 0;
+}
+
+.img1 img {
+    width: 100%;
+}
+
+.img2 {
+    position: relative;
+    width: 500px;
+    z-index: 1;
+}
+
+.img2 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.num {
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    position: absolute;
+}
+
+.num1 {
+    font-size: 40px;
+    top: 139px;
+    left: 136.5px;
+    display: none;
+}
+
+.num2 {
+    font-size: 20px;
+    top: 218px;
+    left: 183.5px;
+    display: none;
+}
+
+.num3 {
+    font-size: 14px;
+    top: 293.5px;
+    left: 188.5px;
+    display: none;
+}
+
+.num4 {
+    font-size: 24px;
+    top: 325px;
+    left: 337.5px;
+    display: none;
+}
+
+.num5 {
+    font-size: 13px;
+    top: 416px;
+    left: 189.5px;
+    display: none;
+}
+
+.num6 {
+    font-size: 10px;
+    top: 165px;
+    left: 300px;
+    display: none;
+}
+
+.num7 {
+    font-size: 8px;
+    top: 709px;
+    left: 89px;
+    display: none;
+    color: black;
+}
+
+.btn_fam {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 360px;
+}
+
+.btn {
+    width: 58px;
+    height: 34px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 8px;
+    text-align: center;
+    line-height: 34px;
+    color: rgb(177, 177, 177);
+    margin: 3px 0;
+    transition: .4s;
+}
+
+.btn:hover {
+    border: 1px solid #B8E0E3;
+    background-color: #B8E0E3;
+    color: white;
+}
+
+
+.box3 .number {
+    margin-bottom: 50px;
+}
+
+.box3 .text {
+    position: absolute;
+    top: 148px;
+    left: 32px;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(56, 56, 56);
+}
+
+.box3 canvas {
+    max-width: 1000px;
+    max-height: 500px;
+    margin-bottom: 20px;
+}
+
+.box3_chart {
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.box3_chart_ctn {
+    width: 2000px;
+    display: flex;
+    transition: .5s;
+}
+
+.box3_chart_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.box3_btn {
+    width: 70px;
+    height: 32px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 8px;
+    text-align: center;
+    line-height: 30px;
+    color: gray;
+    margin: 0 2px;
+    transition: .3s;
+}
+
+.box3_btn:hover {
+    border: 1px solid #B8E0E3;
+    background-color: #B8E0E3;
+    color: white;
+}

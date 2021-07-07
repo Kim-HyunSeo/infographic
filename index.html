@@ -1,36 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>깨토리 인포그래픽</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <canvas id="myChartOne"></canvas>
+    <div class="inner_container">
+        <div class="box1">
+            <div class="text_fam">
+                <div class="number">1</div>
+                <div class="title">연극 뮤지컬 예매율</div>
+                <div class="text">데이터를 살펴보았을 때, 비슷한 공연 장르인 연극과 뮤지컬의<br>예매율 점유율이 점점 큰 차이를 보이고 있다. 뮤지컬은 빠르게<br> 성장하고 있지만,
+                    연극의 경우 미미하다.
+                </div>
             </div>
-            <div class="col-md-6">
-                <canvas id="myChartTwo"></canvas>
+            <canvas id="myChartSeven"></canvas>
+        </div>
+        <div class="box2">
+            <div class="text_fam">
+                <div class="number">2</div>
+                <div class="title">전국 연극 소극장 개수</div>
+                <div class="text">연극 소극장의 분포가 고르지 않으며,
+                    <br>특히 서울 안 대학로에 밀집되어있는 모습을 볼 수 있다.
+                </div>
+                <div class="img1"><img src='./images/seoul.png'></div>
             </div>
-            <div class="col-md-6">
-                <canvas id="myChartThree"></canvas>
+            <div class="img2">
+                <img src='./images/map.png'>
+                <div class="num1 num">591</div>
+                <div class="num2 num">209</div>
+                <div class="num3 num">133</div>
+                <div class="num4 num">283</div>
+                <div class="num5 num">123</div>
+                <div class="num6 num">50</div>
+                <div class="num7 num">25</div>
             </div>
-            <div class="col-md-6">
-                <canvas id="myChartFour"></canvas>
-            </div>
-            <div class="col-md-6">
-                <canvas id="myChartFive"></canvas>
+            <div class="btn_fam">
+                <div class="btn1 btn">서울</div>
+                <div class="btn2 btn">경기</div>
+                <div class="btn3 btn">충청</div>
+                <div class="btn4 btn">경상</div>
+                <div class="btn5 btn">전라</div>
+                <div class="btn6 btn">강원</div>
+                <div class="btn7 btn">제주</div>
             </div>
         </div>
-    </div>
-    <script type="module" src="index.js"></script>
+        <div class="box3">
+            <div class="text_fam">
+                <div class="number">3</div>
+                <div class="title">공연 예술 산업 장르별
+                    <br>상연횟수&매출액 비교
+                </div>
+                <div class="text">연극의 높은 상연횟수에 비해 매출액이 다른 장르의
+                    <br>컨텐츠보다 떨어진다는 사실을 알 수 있다.
+                </div>
+            </div>
+            <div class="box3_chart">
+                <div class="box3_chart_ctn">
+                    <canvas id="myChartFive"></canvas>
+                    <canvas id="myChartSix"></canvas>
+                </div>
+            </div>
+            <div class="box3_chart_btn">
+                <button class="box3_btn box3_btn1">매출액</button>
+                <button class="box3_btn box3_btn2">상연횟수</button>
+            </div>
+        </div>
+        <div class="box4">
+            <div class="text_fam">
+                <div class="number">4</div>
+                <div class="title">관람객 연령대별 매출액
+                </div>
+                <div class="text">관람객 연령대별 매출액을 통해 가장 지출이 많은 2~30대가<br>주로 예매하는 장르가 뮤지컬과 콘서트라는 점을 알 수 있다.
+                </div>
+            </div>
+            <canvas id="myChartEight"></canvas>
+        </div>
+        <script src="index.js"></script>
+        <script type="module" src="chart.js"></script>
 </body>
 
 </html>
